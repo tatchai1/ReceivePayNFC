@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.paynfc.MainActivity" >
+
+  <!--   <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+     <item
+        android:id="@+id/location"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/location"/>
+      <item
+        android:id="@+id/refill"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/refill"/>
+
+</menu>

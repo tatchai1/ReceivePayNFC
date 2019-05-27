@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PIER">
+        <item>PANFA LEELARD PIER</item>
+        <item>TALAD BOBAE PIER</item>
+        <item>SAPAN CHAROENPOL PIER</item>
+        <item>SAPAN HUA CHANG PIER</item>
+        <item>PRATUNAM PIER</item>
+        <item>CHIDLOM PIER</item>
+        <item>WIRELESS PIER</item>
+        <item>NANA NUA PIER</item>
+        <item>NANACHARD PIER</item>
+        <item>ASOKE PIER</item>
+        <item>PRASANMIT PIER</item>
+        <item>ITAL THAI PIER</item>
+        <item>WAT MAI CHONGLOM PIER</item>
+        <item>BAANDON MOSQUE PIER</item>
+        <item>SOI THONGLOR PIER</item>
+        <item>CHARN ISSARA PIER</item>
+        <item>VITJITTRA SCHOOL PIER</item>
+        <item>SAPAN KLONGTUN PIER</item>
+        <item>THE MALL RAM 3 PIER</item>
+        <item>RAMKHAMHAENG 29 PIER</item>
+        <item>WAT THEPLEELA PIER</item>
+        <item>RAMKHAMHAENG 53 PIER</item>
+        <item>SAPAN MIT MAHADTHAI PIER</item>
+        <item>WAT KLANG PIER</item>
+        <item>THE MALL BANGKAPI PIER</item>
+        <item>BANGKAPI PIER</item>
+        <item>WAT SRIBOONREUNG PIER</item>
+    </string-array>
+    
+     <string-array name="BOAT">
+        <item>Boat1</item>
+        <item>Boat2</item>
+        <item>Boat3</item>
+        <item>Boat4</item>
+        <item>Boat5</item>
+    </string-array>
+</resources>

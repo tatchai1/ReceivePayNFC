@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical" >
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="14dp"
+       android:text="@string/phone"
+       android:textSize="30sp" />
+
+   <EditText
+       android:id="@+id/editTextphone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/textView1"
+       android:ems="10"
+       android:inputType="phone"
+       android:textSize="30sp" >
+
+       <requestFocus />
+   </EditText>
+
+   <ProgressBar
+       android:id="@+id/progressBar7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true" />
+
+   <Button
+       android:id="@+id/buttonsearch"
+       android:layout_width="120dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/editTextphone"
+       android:text="@string/search"
+       android:background="@color/green"
+       android:textSize="25sp" />
+
+   <TextView
+       android:id="@+id/showmoney"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/buttonsearch"
+       android:layout_alignBottom="@+id/buttonsearch"
+       android:layout_alignParentLeft="true"
+       android:text="@string/money"
+       android:textSize="30sp" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/buttonsearch"
+       android:layout_marginTop="17dp"
+       android:text="@string/refill"
+       android:textSize="30sp" />
+
+   <EditText
+       android:id="@+id/erefill"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/textView3"
+       android:ems="10"
+       android:inputType="number"
+       android:textSize="30sp" />
+
+   <Button
+       android:id="@+id/buttonok"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/erefill"
+       android:layout_centerHorizontal="true"
+       android:background="@color/green"
+       android:text="@string/ok"
+       android:textSize="25sp" />
+
+</RelativeLayout>

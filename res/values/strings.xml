@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReceivePayNFC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="location">Location</string>
+	<string name="slocation">Send Location</string>
+	<string name="refill">Refill</string>
+	<string name="ok">OK</string>
+	<string name="money">Money</string>
+	<string name="search">Search</string>
+	<string name="phone">Phone Number</string>
+	<string name="user">User</string>
+	
+	
+	<color name="cream">#CEF6CE</color>
+	
+	<color name="green">#A9F5F2</color>
+</resources>
